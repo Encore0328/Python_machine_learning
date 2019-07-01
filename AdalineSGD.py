@@ -2,7 +2,7 @@ import numpy as np
 
 class perceptron():
     
-    def __init__(self, niter, shuffle_=False, deta=0.01, random_sate=None):
+    def __init__(self, niter, shuffle_=True, deta=0.01, random_sate=None):
         self.niter = niter
         self.deta = deta
         self.random_sate = random_sate
